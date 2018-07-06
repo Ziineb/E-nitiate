@@ -1,0 +1,14 @@
+*{
+	font-family: 'Playfair Display', serif;
+background-color: grey}
+h1{color:blue ; text-align: center;
+
+}
+h4{color: grey; text-decoration: underline;
+}
+p{font-size: 22px;}
+.blue {
+font-size:30px;
+color: #00CED1;}
+a{color: grey, text-decoration: underline;
+}
