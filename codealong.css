@@ -1,14 +1,49 @@
 *{
 	font-family: 'Playfair Display', serif;
-background-color: grey}
-h1{color:blue ; text-align: center;
+	text-indent: 30px ;
+	background-color: linear-gradient(left to right, rgb(53, 92, 125), rgb(192, 108, 132));
+}
+#grad {
+    background: linear-gradient(red, yellow);
+}
+h1{
+	color:black;
+	text-align: center;
+	text-decoration: underline;
 
 }
-h4{color: grey; text-decoration: underline;
+h4{
+	color: #00CED1 ;
+ 	text-decoration: underline;
 }
-p{font-size: 22px;}
+p{
+	font-size: 22px;
+ 	line-height: 32px
+ }
 .blue {
-font-size:30px;
+font-size:26px;
 color: #00CED1;}
-a{color: grey, text-decoration: underline;
+a{
+	color: grey ;
+	text-decoration: underline;
 }
+h3,h4{
+	font-size:28px;
+	text-transform: uppercase;}
+ol li{
+	font-size: 22px;
+ 	color:green;
+}
+ul li {
+	font-size: 22px;
+ 	color:red;
+}
+body{ 
+	border:solid;
+	border-color:#9966ff;
+
+	background : linear-gradient( to right, #D3CCE3, #E9E4F0);
+}
+h1:hover{
+	color:blue ;
+ }
