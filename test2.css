@@ -1,0 +1,35 @@
+
+.top{
+	text-align: center;
+	margin: 0; 
+	padding: 20px;
+
+}
+h3{
+	text-align: center;
+	color: red;
+}
+*{
+	
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Lato';
+}
+h1{
+	text-decoration: underline;
+	font-size: 45px;
+}
+h5{
+	color: grey;
+}
+.bottom{
+	padding: 20px;
+	background-color:grey; 
+	height: 500px;
+	opacity: 0.6;
+}
+body{
+	background-image: url(https://images.unsplash.com/photo-1530975155254-0faede6a2473?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd450561e70497f24870e9116fc3196f&auto=format&fit=crop&w=1350&q=80);
+}
