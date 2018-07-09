@@ -27,9 +27,13 @@ h5{
 .bottom{
 	padding: 20px;
 	background-color:grey; 
-	height: 500px;
+	height: 200px;
 	opacity: 0.6;
 }
 body{
 	background-image: url(https://images.unsplash.com/photo-1530975155254-0faede6a2473?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dd450561e70497f24870e9116fc3196f&auto=format&fit=crop&w=1350&q=80);
+}
+h1:hover{
+	color: blue
+
 }
