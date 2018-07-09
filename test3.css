@@ -35,6 +35,9 @@ h1,h2{font-size: 50px;
 }
 h3::after{
 	content: "";
-	border-bottom: 2px blue solid;
+	border: 2px blue solid;
+	display: block;
+	margin-right:400px;
+	margin-left: 400px;
 
 }
