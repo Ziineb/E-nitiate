@@ -1,0 +1,46 @@
+
+.city{ 
+	height:300px;
+	width:250px;
+
+}
+.city:hover {
+	opacity:0.5;
+	transform: translateY(-20px);
+}
+h1.{
+	text-align:center;
+	font-style: 
+
+
+}
+.text{
+	text-align: center;
+	display:inline-block;
+	margin: 1.5%;
+	width:30%;
+
+}
+h3{
+	text-align: center;
+	font-family: 'Lora', serif;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+
+}
+.top{ 
+	background-image:url("https://images.unsplash.com/photo-1496469888073-80de7e952517?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=33548b2ee7e57ecb0062b82c9f19d174&auto=format&fit=crop&w=1489&q=80");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 100px;
+	margin-top: 0px;
+	height: 700px;
+	color: grey;
+	font-size:25pt;
+}
+#subtitle{  
+	text-align:center;
+	color: 
+
+ }
