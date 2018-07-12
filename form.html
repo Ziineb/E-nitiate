@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"
+	>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./form.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <body>
-	<div></div>
-	<form id='questions'>
-		1-As-tu de bonnes notes en matières scientifiques? <br>
-		<label>OUI</label>
-		<input type="radio" id="r1" name="note"value="yes"><label>NON</label> <input type="radio" name="note"id="r2" value="No"> <br>
-		2-Préfères-tu les matières littéraires?<br>
-		<label>OUI</label>
-		<input type="radio" name="preferance" id="r3" value="yes"><label>NON</label><input type="radio" name="preferance" id="r4" value="No"> <br>
-		3-Es-tu passioné par l'art?<br>
-		<label>OUI</label>
-		<input type="radio" name="passion" id="r5" value="yes"><label>NON</label> <input type="radio" name="passion" id="r6" value="No"> <br>
-		4-Te considères-tu créatif ?<br>
-		<label>OUI</label>
-		<input type="radio" name="creativity" id="r7" value="yes"><label>NON</label> <input type="radio" name="creativity" id="r8" value="No"><br>
-		5-Te considères-tu un leader? <br>
-		<label>OUI</label>
-		<input type="radio" name="leader" id="r9" value="yes"><label>NON</label> <input type="radio" name="leader" id="r10" value="No"> <br>
-		6-Voudrais-tu apprendre une nouvelle langue? <br>
-		<label>OUI</label>
-		<input type="radio" name="langue" id="r11" value="yes"><label>NON</label> <input type="radio" name="langue" id="r12" value="No"> <br>
-		7-Es-tu prêt à faire de longues études après le lycée?<br>
-		<label>OUI</label>
-		<input type="radio" name="years" id="r13" value="yes"><label>NON</label> <input type="radio" name="years" id="r14" value="No"> <br>
-		8-Pratiques-tu des activités parascolaires ?<br>
-		<label>OUI</label>
-		<input type="radio" name="act" id="r14" value="yes"><label>NON</label> <input type="radio" name="act" id="r15" value="No"> <br>
-		9-Aimes-tu le travail en groupe?<br>
-		<label>OUI</label>
-		<input type="radio" name="team" id="r15" value="yes"><label>NON</label> <input type="radio" name="team" id="r16" value="No"> <br>
-		<input type="submit" value="Rendre le formulaire">
-	</form>
+	<div class=header>
+		<h1> Formulaire d'Orientation:</h1>
+	</div>
+	<div>
+		<form id='questions'>
+			1-As-tu de bonnes notes en matières scientifiques? <br>
+			<label class="container">OUI</label>
+			<input type="checkbox" id="r1" name="note"value="yes"><label class="container">NON</label> <input type="checkbox" name="note"id="r2" value="No"> <br>
+			2-Préfères-tu les matières littéraires?<br>
+			<label class="container">OUI</label>
+			<input type="checkbox" name="preferance" id="r3" value="yes"><label class="container">NON</label><input type="checkbox" name="preferance" id="r4" value="No"> <br>
+			3-Es-tu passioné par l'art?<br>
+			<label class="container">OUI</label>
+			<input type="checkbox" name="passion" id="r5" value="yes"><label class="container">NON</label> <input type="checkbox" name="passion" id="r6" value="No"> <br>
+			4-Te considères-tu créatif ?<br>
+			<label class="container">OUI</label>
+			<input type="checkbox" name="creativity" id="r7" value="yes"><label class="container">NON</label> <input type="checkbox" name="creativity" id="r8" value="No"><br>
+			5-Te considères-tu un leader? <br>
+			<label class="container" >OUI</label>
+			<input type="checkbox" name="leader" id="r9" value="yes"><label class="container">NON</label> <input type="checkbox" name="leader" id="r10" value="No"> <br>
+			6-Voudrais-tu apprendre une nouvelle langue? <br>
+			<label class="container">OUI</label>
+			<input type="checkbox" name="langue" id="r11" value="yes"><label class="container">NON</label> <input type="checkbox" name="langue" id="r12" value="No"> <br>
+			7-Es-tu prêt à faire de longues études après le lycée?<br>
+			<label class="container">OUI</label>
+			<input type="checkbox" name="years" id="r13" value="yes"><label class="container">NON</label> <input type="checkbox" name="years" id="r14" value="No"> <br>
+			8-Pratiques-tu des activités parascolaires ?<br>
+			<label class="container">OUI</label>
+			<input type="checkbox" name="act" id="r14" value="yes"><label class="container">NON</label> <input type="checkbox" name="act" id="r15" value="No"> <br>
+			9-Aimes-tu le travail en groupe?<br>
+			<label class="container" >OUI</label>
+			<input type="checkbox" name="team" id="r15" value="yes"><label class="container">NON</label> <input type="checkbox" name="team" id="r16" value="No"> <br>
+			<input type="submit" id="button" value="Rendre le formulaire">
+			</form>
+	</div>
 <script type="text/javascript">
 	var form= document.getElementById('questions');
 	var note,preferance,passion,creativity,leader,langue,years,act,team;

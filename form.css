@@ -1,0 +1,49 @@
+.container{
+	display: block;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #113ab2;
+    display: inline;
+    padding:0px;
+    margin:10px;
+}
+#questions{
+	color: #03093f;
+	border-style:solid ;
+    border-width:small;
+    border-color:#4688f2; 
+    text-align: center;
+    margin: 15%;
+    padding: 20px;
+    margin-top: 0px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/057/102/non_2x/blue-wave-background-vector.jpg);
+    background-size: no-repeat;
+    background-size: 100%;
+
+}
+h1{
+	font-size:30px;
+	color:#4688f2;
+	text-align: center;
+	padding:10px;
+	margin-bottom:0px;
+}
+#button{
+	background-color:#4688f2 ; 
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
