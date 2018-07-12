@@ -1,19 +1,38 @@
 .block{
 	font-size: 15pt;
 	display:inline-block;
+	background-image: url(https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c13e16dc570c2c74875bf2303e779e14&auto=format&fit=crop&w=1350&q=80);
+	opacity:0.3;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 
 }
 .image{
-	height:200px;
-	width:15%;
-	display:inline-block;
-
+	height:300px;
+	width:40%;
+	border-radius: 10%;
 
 }
 h2{
 	color: grey;
 	font-family: 
-	
 
+}
+h3{
+	color: #0033cc;
+
+
+}	
+.logo{
+	margin:12px;
+	padding: 5px;
+	display:inline-block;
+	text-align: center;
+
+}		
+body{
+	text-align: center;
+	
 
 }
