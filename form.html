@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div></div>
+	<form id='questions'>
+		1-As-tu de bonnes notes en matières scientifiques? <br>
+		<label>OUI</label>
+		<input type="radio" id="r1" name="note"value="yes"><label>NON</label> <input type="radio" name="note"id="r2" value="No"> <br>
+		2-Préfères-tu les matières littéraires?<br>
+		<label>OUI</label>
+		<input type="radio" name="preferance" id="r3" value="yes"><label>NON</label><input type="radio" name="preferance" id="r4" value="No"> <br>
+		3-Es-tu passioné par l'art?<br>
+		<label>OUI</label>
+		<input type="radio" name="passion" id="r5" value="yes"><label>NON</label> <input type="radio" name="passion" id="r6" value="No"> <br>
+		4-Te considères-tu créatif ?<br>
+		<label>OUI</label>
+		<input type="radio" name="creativity" id="r7" value="yes"><label>NON</label> <input type="radio" name="creativity" id="r8" value="No"><br>
+		5-Te considères-tu un leader? <br>
+		<label>OUI</label>
+		<input type="radio" name="leader" id="r9" value="yes"><label>NON</label> <input type="radio" name="leader" id="r10" value="No"> <br>
+		6-Voudrais-tu apprendre une nouvelle langue? <br>
+		<label>OUI</label>
+		<input type="radio" name="langue" id="r11" value="yes"><label>NON</label> <input type="radio" name="langue" id="r12" value="No"> <br>
+		7-Es-tu prêt à faire de longues études après le lycée?<br>
+		<label>OUI</label>
+		<input type="radio" name="years" id="r13" value="yes"><label>NON</label> <input type="radio" name="years" id="r14" value="No"> <br>
+		8-Pratiques-tu des activités parascolaires ?<br>
+		<label>OUI</label>
+		<input type="radio" name="act" id="r14" value="yes"><label>NON</label> <input type="radio" name="act" id="r15" value="No"> <br>
+		9-Aimes-tu le travail en groupe?<br>
+		<label>OUI</label>
+		<input type="radio" name="team" id="r15" value="yes"><label>NON</label> <input type="radio" name="team" id="r16" value="No"> <br>
+		<input type="submit" value="Rendre le formulaire">
+	</form>
+<script type="text/javascript">
+	var form= document.getElementById('questions');
+	var note,preferance,passion,creativity,leader,langue,years,act,team;
+	form.onsubmit=function(e){
+		e.preventDefault();
+		note=form.note.value;
+		preferance=form.preferance.value;
+		passion=form.preferance.value;
+		creativity=form.creativity.value;
+		leader=form.leader.value;
+		langue=form.langue.value;
+		years=form.years.value;
+		act=form.act.value;
+		team=form.act.value;
+		storeValue(note,preferance,passion,creativity,leader,langue,years,act,team);
+}
+function storeValue(note,pre,passion,creativity,leader,langue,years,act,team) {
+	console.log(note,pre,passion,creativity,leader,langue,years,act,team);
+
+ 	window.location.replace('http://www.google.com/');
+
+}
+
+
+
+</script>
+
+</body>
+</html>
