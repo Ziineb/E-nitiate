@@ -1,0 +1,61 @@
+*{
+
+
+}
+button {
+	background-color:#006600;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+button:hover {
+    color: white;
+    font-size: 20px; 
+
+}
+h1{
+	color: #006600;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Hind', sans-serif;
+	font-size: 40px;
+
+}
+h3{
+	color:#990000;
+	font-family: 'Lato', sans-serif;
+	
+}
+h4{
+	color: #003300;
+	font-family: 'Lato', sans-serif;
+
+}
+body{
+	padding:20px; 
+	margin:25px;
+	width:75%;
+	border:10px solid black;
+	border-radius:25px;
+}
+.back {
+	background-image: url('https://i1.wp.com/maroc-diplomatique.net/wp-content/uploads/2017/07/AUI.jpg?fit=600%2C343');
+	filter: blur(1px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+	
+}
+.content 
+
+p{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif; 
+
+}
